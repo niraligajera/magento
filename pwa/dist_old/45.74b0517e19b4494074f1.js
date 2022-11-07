@@ -1,0 +1,9 @@
+/*! @version pwa-studio: 0.0.1, @magento/venia-ui: ~9.6.0, @magento/upward-security-headers: ~1.0.10, @magento/pwa-theme-venia: ~1.3.0, @magento/pwa-buildpack: ~11.4.0, @magento/peregrine: ~12.5.1, @magento/pagebuilder: ~7.4.1, @magento/eslint-config: ~1.5.0, @magento/babel-preset-peregrine: ~1.2.1, @apollo/client: ~3.5.0 */
+(window.webpackJsonp=window.webpackJsonp||[]).push([[45],{"1m22":function(t,r,n){"use strict"
+n.r(r),n.d(r,"default",function(){return w})
+var i=n("RIqP"),o=n.n(i),a=n("q1tI"),e=n.n(a),s=n("LboF"),g=n.n(s),d=n("gseO"),p={injectType:"singletonStyleTag",insert:"head",singleton:!0},l=(g()(d.a,p),d.a.locals||{}),m=n("y1Xp"),c=n("17x9"),b=n("Ty5D"),h=n("6MNj"),u=t=>({__html:t}),f=t=>{var r=Object(m.a)(l,t.classes),n=t.html,i=t.textAlign,a=t.border,s=t.borderColor,g=t.borderWidth,d=t.borderRadius,p=t.marginTop,c=t.marginRight,f=t.marginBottom,w=t.marginLeft,T=t.paddingTop,k=t.paddingRight,R=t.paddingBottom,y=t.paddingLeft,j=t.cssClasses,O=void 0===j?[]:j,L={textAlign:i,border:a,borderColor:s,borderWidth:g,borderRadius:d,marginTop:p,marginRight:c,marginBottom:f,marginLeft:w,paddingTop:T,paddingRight:k,paddingBottom:R,paddingLeft:y},v=Object(b.g)(),B=t=>{Object(h.a)(v,t)}
+return e.a.createElement("div",{style:L,className:[r.root].concat(o()(O)).join(" "),dangerouslySetInnerHTML:u(n),onClick:B,onKeyDown:B,role:"presentation"})}
+f.propTypes={classes:Object(c.shape)({root:c.string}),html:c.string,textAlign:c.string,border:c.string,borderColor:c.string,borderWidth:c.string,borderRadius:c.string,marginTop:c.string,marginRight:c.string,marginBottom:c.string,marginLeft:c.string,paddingTop:c.string,paddingRight:c.string,paddingBottom:c.string,cssClasses:Object(c.arrayOf)(c.string)}
+var w=f},gseO:function(t,r,n){"use strict"
+var i=n("JPst"),o=n.n(i)()(function(t){return t[1]})
+o.push([t.i,".html-root-akk {\n    word-wrap: break-word;\n}\n.html-root-akk img {\n    max-width: 100%;\n}\n",""]),o.locals={root:"html-root-akk"},r.a=o}}])

@@ -1,0 +1,151 @@
+<!DOCTYPE html><html lang="en-US" data-image-optimizing-origin="auto" data-media-backend="https://try.zumocart.com/media/"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"><meta name="theme-color" content="#ff6334"><link rel="manifest" href="/manifest.json"><title>Zumocart</title><link rel="preconnect" href="https://try.zumocart.com/"><script type="text/javascript">window.smIsLightHouse = false;
+        if (navigator && navigator.userAgent) {
+            var botPattern = "(Lighthouse)";
+            var re = new RegExp(botPattern, 'i');
+            var userAgent = navigator.userAgent;
+            if (re.test(userAgent)) {
+                window.smIsLightHouse = true;
+            }
+        }</script><script type="text/javascript">var SMCONFIGS = {
+            //magento url, end with slash
+            merchant_url: "https://try.zumocart.com/",
+            //for pwastudio, call api directly to merchant instead of calling via upward
+            directly_request: false,
+            simicart_url: "https://www.simicart.com/appdashboard/rest/app_configs/",
+            simicart_authorization: "Qg5xhysRKGQe2K01n2qg7KL8rKpO9GmZXsxf0Z6",
+            notification_api: "/rest/V1/simiconnector/",
+            logo_url: "https://www.simicart.com/skin/frontend/default/simicart2.1/images/simicart/new_logo_small.png",
+            //eg. url is https://codymap.com/magento23 and media url must include pub, value should be 'magento23/pub/'
+            media_url_prefix: 'pub/',
+            plugins: {
+                'SM_ENABLE_CONNECTOR': 0, //https://github.com/Simicart/SimiCart-Magento2.x-GraphQl
+                'SM_ENABLE_META_PACKAGES': 0, //https://github.com/magento/magento2-pwa
+                'SM_ENABLE_PRODUCT_LABEL': 0,
+                'SM_ENABLE_SHOP_BY_BRAND': 0,
+                'SM_ENABLE_REWARD_POINTS': 0,
+                'SM_ENABLE_REWARD_POINTS_PRO': 0,
+                'SM_ENABLE_DELIVERY_TIME': 0,
+                'SM_ENABLE_SIZE_CHART': 0,
+                'SM_ENABLE_SOCIAL_LOGIN': 0,
+                'SM_ENABLE_MAGEWORX_SEO': 0,
+                'SM_ENABLE_FAQS': 0,
+                'SM_ENABLE_BETTER_BLOG': 0,
+                'SM_ENABLE_CALL_FOR_PRICE': 0,
+                'SM_ENABLE_MEGA_MENU': 0,
+                'SM_ENABLE_GIFT_CARD': 0
+            }
+        };
+        var tapitaIntegrationToken = '4939v3RtkZ4HchzUlQzesO1arzLTQvy6oG1661256281';</script><script src="https://www.simicart.com/appdashboard/rest/app_configs?source=https://try.zumocart.com/&bear_token=Qg5xhysRKGQe2K01n2qg7KL8rKpO9GmZXsxf0Z6&pwa=1&js=1"></script><script type="text/javascript">window.addEventListener('error', function (e) {
+            if (
+                e && e.target &&
+                (
+                    (e.target.src && (typeof e.target.src === 'string') && e.target.src.indexOf('runtime') !== -1) ||
+                    (e.target.src && (typeof e.target.src === 'string') && e.target.src.indexOf('client') !== -1) ||
+                    (e.target.src && (typeof e.target.src === 'string') && e.target.src.indexOf('vendors') !== -1) ||
+                    (e.message && e.message == 'Script error.')
+                )
+            ) {
+                console.log('Version is outdated - old client file not found')
+                try {
+                    if (typeof (caches) !== "undefined") {
+                        caches.keys().then(function (names) {
+                            for (const name of names)
+                                caches.delete(name);
+                        });
+                    }
+
+                    navigator.serviceWorker.getRegistrations().then(
+                        function (registrations) {
+                            for (let registration of registrations) {
+                                registration.unregister();
+                            }
+                        });
+                } catch (err) {
+                    console.log(err)
+                }
+                try {
+                    sessionStorage.clear();
+                    localStorage.setItem("CLIENT_VER", null);
+                    window.location.reload();
+                } catch (err) {
+                    console.log(err)
+                }
+            }
+        }, true);</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"><style>/* override & pre-styling containers for cls opmization purpose */
+        .container {
+            display: block;
+        }
+
+        #root .container,
+        #root .container-fluid {
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        @media (min-width: 768px) {
+            #root .container {
+                width: 750px;
+            }
+        }
+
+        @media (min-width: 992px) {
+            #root .container {
+                width: 970px;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            #root .container {
+                width: 1170px;
+            }
+        }
+
+        @media (min-width: 1440px) {
+            #root .container {
+                width: 1370px;
+            }
+        }
+
+        @media (min-width: 1620px) {
+            #root .container {
+                width: 1430px;
+            }
+        }
+
+        @media (max-width: 1024px) {
+
+            /* native style */
+            a,
+            input,
+            button,
+            span,
+            div {
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            div,
+            span,
+            p,
+            table {
+                user-select: none;
+                -webkit-user-select: none;
+                -khtml-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+            }
+        }</style><link rel="stylesheet" href="/static/core-theme-style.css?v=12.0.0" media="print" onload="this.media='all'"></head><body><script type="text/javascript">/*precache*//*endprecache*/</script><div style="display: none"><div class="addthis_inline_share_toolbox" id="social-share"></div></div><div id="root"></div><div class="splash-screen" id="splash-screen" style="margin-top:0;text-align:center;width: 100%;top: 0;left: 0;"><div style="width: 100%; height: auto; margin: 0 auto 0;"><img id="splash-img" alt="Splash Img" style="position: absolute; left: 50%; top: 50%; -webkit-transform: translateY(-50%) translateX(-50%); z-index:-1; width: 100%; max-width: 1024px;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJ5ZXMiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNzYiIGhlaWdodD0iNTkiPgo8cGF0aCBzdHlsZT0iZmlsbDojZmZmZmZmOyBzdHJva2U6bm9uZTsiIGQ9Ik0wIDNMMyAwTDAgM3oiLz4KPHBhdGggc3R5bGU9ImZpbGw6IzdmYmIwMTsgc3Ryb2tlOm5vbmU7IiBkPSJNNDcgMjhMNjkgMjhDNzMuNTU0NyAyOCA3OS43OTY4IDI5LjA1OTkgODMuOTQ1MiAyNi44MjFDOTAuNjAyMiAyMy4yMjgyIDk1LjEzOSA3Ljk2MjUzIDg4Ljc3MTYgMi41MTM4OUM4My40MzM2IC0yLjA1MzkzIDcyLjUyOTkgMCA2NiAwQzQ5LjQyMzQgMCAyNi43NTMzIC00LjYxMDkyIDMzIDE5QzIyLjU3MDggMTguMTk0NCAyNi4wMDEzIDQuNDQ4MTQgMTYuOTg0NiAwLjg5MzUyQzEzLjEzNTMgLTAuNjIzOTg1IC0xLjA2MzUyIC0xLjYwNTk2IDAuODkwNDMyIDUuODk1ODNDMi40MDA1MSAxMS42OTM1IDkuOTMwMTggOC40MTU2IDEzLjI5NzggMTEuNjAzNEMxNy4zNDk4IDE1LjQzODkgMTYuNTM1NSAyMi40NTM1IDIxLjM0MDMgMjUuOTkwN0MyNS43ODEgMjkuMjU5OSAzMi40MDczIDI2LjA0MDMgMzYuMzUxMSAyOS42MDM0QzM5LjI2MjYgMzIuMjMzOSAzOS40MzYgMzYuODM5NiA0MS43MDIyIDM5Ljk0MTRDNDUuMzg1NiA0NC45ODMgNTEuNDc1MiA0NCA1NyA0NEM2MS44NzUgNDQgODAuNzg0OCA0Ni44MDcyIDgxLjUzNCAzOS45NjA2QzgyLjExMzggMzQuNjYxMyA3NS40NDIgMzUuMDA3MSA3MiAzNUM2Mi4xMTI1IDM0Ljk3OTcgNTIuNDE5MiAzNy42MjA5IDQ3IDI4eiIvPgo8cGF0aCBzdHlsZT0iZmlsbDojZmZmZmZmOyBzdHJva2U6bm9uZTsiIGQ9Ik0xNiAwTDE2IDFDMjQuNzczOCA1LjE5MjQxIDIyLjczNTQgMTguNjU4NyAzMyAxOUMzMS42ODgyIDExLjI1MjMgMjkuNzc0NSA2LjM4NDU2IDM3IDFMMTYgME04NSAwTDg1IDFDOTUuMDYxMiA1LjgwODE0IDkyLjIyOTEgMjIuMDE0MiA4Mi45ODE1IDI2LjgyMUM3NC4yMzE2IDMxLjM2OSA1Ni43NzA0IDI4IDQ3IDI4QzUwLjkzMDggMzcuNzg2NSA2MC45NDYyIDM0Ljk5NTkgNzAgMzVDNzMuMzc1OCAzNS4wMDE1IDgwLjQyNjIgMzQuMjMwNCA4MS4wNzg3IDM5LjAzOTRDODEuNTQ3NCA0Mi40OTM3IDc3LjY1MyA0My43MDg3IDc0Ljk5OTIgNDMuOTQxNEM2Ni45OTI2IDQ0LjY0MzMgNTYuOTQwNyA0NS4wODkgNDkgNDMuODUxOUM0MC4wMDUxIDQyLjQ1MDQgNDIuMTE2MiAzMy4xNTMxIDM2LjM1MTEgMjkuMDI3OEMzMi43NDkxIDI2LjQ1MDMgMjcuMTMxIDI4Ljc1MDYgMjMuMDk0MSAyNi41NDMyQzE3LjA1NzIgMjMuMjQyMiAxOC4wMzcyIDE2LjA3NjEgMTMuOTE0NCAxMS42MDM0QzEwLjY0OTMgOC4wNjEyNiA0LjczNjcxIDEwLjIzNDQgMSA2TDAgNkwwIDU5TDUwIDU5TDUwIDU4QzM3LjAyOTcgNDcuMDc5NiA2NS41OTMxIDQ2LjU5MSA1NCA1OEw1NCA1OUw3MiA1OUM2NC44NDcxIDQ1LjkxMzIgODQuMTUyOSA0NS45MTMzIDc3IDU5TDM3NiA1OUwzNzYgMTJMMzc1IDEyQzM2NS4zNzQgMjAuNjk3NCAzNjUuMzc0IC0wLjY5NzM2OSAzNzUgOEwzNzYgOEwzNzYgMEw4NSAweiIvPgo8cGF0aCBzdHlsZT0iZmlsbDojMGY1OTRkOyBzdHJva2U6bm9uZTsiIGQ9Ik0xMDcgMUwxMDcgOUwxMjggOUMxMTguOTA5IDE4Ljg5OTcgMTA3LjAwOSAzMS4xMDc3IDEwNyA0NUwxMzkgNDVMMTM5IDM3TDExOCAzN0MxMjUuMjg1IDI1LjM0MTcgMTM4Ljk1OCAxNS41MTMxIDEzOSAxTDEwNyAxTTM2OS4yMjUgNS43ODYyN0MzNjMuNzg1IDcuOTUyMjQgMzY3LjI2IDE2LjQwOTcgMzcyLjc3NSAxNC4yMTM3QzM3OC4yMTUgMTIuMDQ3OCAzNzQuNzQgMy41OTAzMiAzNjkuMjI1IDUuNzg2MjdNMzUwIDdMMzUwIDE1TDM0NSAxNUwzNDUgMjJMMzUwIDIyQzM1MCAzNS40MDMyIDM0OS4xNTUgNDcuMDgyMyAzNjYgNDVMMzY2IDM4QzM1Ni4zODQgMzcuNjg1MSAzNTggMjkuNTE4IDM1OCAyMkwzNjYgMjJMMzY2IDE1TDM1OCAxNUwzNTggN0wzNTAgN3oiLz4KPHBhdGggc3R5bGU9ImZpbGw6I2ZmZmZmZjsgc3Ryb2tlOm5vbmU7IiBkPSJNMzY4LjMzMyA5LjY2NjY3TDM2OC42NjcgMTAuMzMzM0wzNjguMzMzIDkuNjY2NjdNMzczLjMzMyA5LjY2NjY3TDM3My42NjcgMTAuMzMzM0wzNzMuMzMzIDkuNjY2NjdNNDEgMTBDNDMuMTY1NiAyMi41MTk0IDU1Ljk5MDEgMTkgNjYgMTlDNjkuNTE5MiAxOSA3NS40NTIzIDIwLjEwNDIgNzguNDkgMTcuOTcyMkM4MC44Nzk3IDE2LjI5NSA4MS4zODk2IDEyLjYyNzYgODIgMTBMNDEgMTB6Ii8+CjxwYXRoIHN0eWxlPSJmaWxsOiMwZjU5NGQ7IHN0cm9rZTpub25lOyIgZD0iTTE4NSAxOEMxODQuMjA0IDE0LjI4NDIgMTgxLjM2MyAxNSAxNzggMTVMMTc4IDQ1TDE4NiA0NUMxODYgNDAuNDc5MyAxODMuNiAyMS43Nzc1IDE5MS45MDcgMjIuOTIxM0MxOTguNDg4IDIzLjgyNzUgMTk2IDQwLjQzNDEgMTk2IDQ1TDIwNCA0NUMyMDQgNDAuNDc5MyAyMDEuNiAyMS43Nzc1IDIwOS45MDcgMjIuOTIxM0MyMTYuNDg4IDIzLjgyNzUgMjE0IDQwLjQzNDEgMjE0IDQ1TDIyMiA0NUMyMjIgMzcuNTg0NCAyMjQuMjM2IDI1Ljc1MjcgMjIwLjU0MyAxOS4xMDQ5QzIxNi44MSAxMi4zODMzIDIwNi42MjcgMTIuNjMxMyAyMDMgMTlDMTk3LjQ1NSAxMy4wNDEgMTkxLjI5NiAxMy4yMDA2IDE4NSAxOE0yNDAgMTQuNTMwMUMyMTkuNTU1IDE5LjE1NjUgMjI3LjE2OCA1MC4yMzMzIDI0OCA0NC45NDE0QzI2Ni45MDYgNDAuMTM4OSAyNTkuMzY3IDEwLjE0NzYgMjQwIDE0LjUzMDFNMjkwIDQyTDI4NSAzNUwyODQgMzVDMjY5LjYzNiA0NC4xMzM3IDI2OS42MzUgMTUuNjg4MSAyODQgMjVMMjg1IDI1TDI5MCAxOEMyODYuODc0IDE2LjA3NDggMjgzLjc0NyAxNC40NjM4IDI4MCAxNC4yMTM3QzI1OC4zOTggMTIuNzcxNyAyNTguOTM3IDQ3LjkwMzQgMjgxIDQ1LjI5MTdDMjg0LjMyMSA0NC44OTg2IDI4Ny4xMjYgNDMuNjExNSAyOTAgNDJNMjkzIDE5TDI5MyAyMEwyOTcgMjRMMjk4IDI0QzMwMy4xMTQgMjAuNjI3OSAzMDcuNjgyIDIwLjMxNjYgMzExIDI2QzMwNS44NjQgMjYuMDAwNiAyOTkuNTEgMjUuNDUyMiAyOTUuMTQ0IDI4LjcyNzZDMjgyLjg5NyAzNy45MTY3IDMwMC41MSA0OS43NjEgMzExIDQyQzMxMS43OTYgNDUuNzE1OSAzMTQuNjM3IDQ1IDMxOCA0NUMzMTggMzcuNzY4NSAzMTkuNzU5IDI3LjgyMDYgMzE3LjEwNiAyMS4wMDQ2QzMxMy4xMDMgMTAuNzE3MiAyOTkuNjM1IDEzLjY4NTggMjkzIDE5TTMzNCAxN0wzMzMgMTdMMzI1IDE1TDMyNSA0NUwzMzMgNDVDMzMzIDM2LjA2NCAzMzAuNzUyIDIxLjI2NTYgMzQ0IDIzQzM0My45NzQgMTUuNzgwNiAzNDAuODI3IDExLjU3MjYgMzM0IDE3TTE0NCAxNUMxNDQgMjQuNjcyMiAxNDMuNDIyIDU2LjgyMTQgMTYyIDQzTDE2MyA0M0wxNzEgNDVMMTcxIDE1TDE2MyAxNUMxNjMgMTkuNzMxNCAxNjUuNDk3IDM3Ljg3MDcgMTU3LjA0MiAzNi45NjNDMTQ5Ljc1NiAzNi4xODA3IDE1MiAxOS44MjkgMTUyIDE1TDE0NCAxNXoiLz4KPHBhdGggc3R5bGU9ImZpbGw6I2ZmZmZmZjsgc3Ryb2tlOm5vbmU7IiBkPSJNMjQwLjA1OSAyMy4wMzE2QzIzMS43NSAyNy40NTUzIDIzOC4yOTYgNDEuNTIwOCAyNDYuODkxIDM2LjgxNzFDMjU1LjEzNSAzMi4zMDYxIDI0OC42MTQgMTguNDc2NiAyNDAuMDU5IDIzLjAzMTZNMzEwIDMyQzI5Mi43MDQgMzIuMzcwNCAzMDcuOTY4IDQ1LjAxMzQgMzEwIDMyeiIvPgo8cGF0aCBzdHlsZT0iZmlsbDojZjM3MzJiOyBzdHJva2U6bm9uZTsiIGQ9Ik01MS4wMzk0IDQ3LjgwMDlDNDMuODY0OCA0OC42MTggNDUuODA2MiA1OS43MzE3IDUyLjk0MjEgNTguNDU3NkM1OS4yMTQ2IDU3LjMzNzYgNTcuMjcxOSA0Ny4wOTEyIDUxLjAzOTQgNDcuODAwOU03My4wNTc5IDQ3Ljg1MTFDNjYuNjE2NyA0OS43NzI1IDY5LjQ0IDYwLjM1OTIgNzUuOTQyMSA1OC4zMzhDODIuMzI3MiA1Ni4zNTMxIDc5LjY2MDkgNDUuODgxNCA3My4wNTc5IDQ3Ljg1MTF6Ii8+Cjwvc3ZnPgo="></div></div><noscript><style>.fallback-nojs {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .fallback-nojs a {
+                color: currentColor;
+            }
+
+            .fallback-closed {
+                height: 40vh;
+            }</style><div class="fallback-nojs"><h1 class="fallback-heading">Oops! JavaScript is disabled</h1><div>To browse the Venia store,<br><a href="https://www.enable-javascript.com">enable JavaScript in your browser.</a></div></div></noscript><script src="/runtime.c589dae4b7c87d9f7e33.js"></script><script src="/vendors.0c1d969a9cc7716a0df1.js"></script><script src="/client.1ebd61930fe10bf80d23.js"></script></body></html>

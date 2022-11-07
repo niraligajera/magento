@@ -1,0 +1,10 @@
+/**
+ * custom theme 2022-07-03 00:46:17 */
+
+#newsletter_pop_up{
+width: 890px;height: 420px;background-color: #F4F4F4;background-position:95% center;
+background-repeat:no-repeat;}
+#newsletter_pop_up .col-img{
+	height: 100%;
+	background-image: url(https://zumocart.com/media/rokanthemes/newsletter/background/default/nwsltr-1x_2.jpg);background-position:95% center;
+background-repeat:no-repeat;}
